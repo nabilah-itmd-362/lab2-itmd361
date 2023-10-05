@@ -8,13 +8,43 @@
 /*adding linear gradient for background*/
 
 /*creating stylistic elements for the box*/
+
+/*Create a second CSS file to style the form between a scroll friendly mobile first
+version, and a sectioned desktop version*/
+/*Media query for mobile*/
+@media (min-width: 320px) {
+	.box {
+		width: 100%; 
+        height: auto; 
+        margin: 0;
+    }
+
+    label {
+        font-size: 20px; 
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+/*Media query for Desktop*/
+@media (min-width: 1025px) {
+	.box {
+        width: 600px; 
+        height: 300px;
+        margin: 10px; 
+        margin-top: 20px;
+    }
+}
+
 .box {
     width: 600px; 
     height: 300px;
     border: 1px solid;
     padding: 10px;
     margin: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
