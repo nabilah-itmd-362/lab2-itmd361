@@ -17,6 +17,9 @@ version, and a sectioned desktop version*/
 		width: 100%; 
         height: auto; 
         margin: 0;
+        border: 1px solid black;
+        padding: 5px;
+        margin-top: 10px;
     }
 
     label {
