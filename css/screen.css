@@ -20,12 +20,12 @@ h1{
 /*updating formatting for label*/
 label {
 	font-size: 25px;
+	font-family: 'Young Serif', sans-serif;
 }
 
 input{
 	height: 35px;
 	width: 50%;
-	font-family: 'Young Serif', sans-serif;
 	border-radius: 0.625em;
 	box-sizing: border-box;
 	border-style: solid;
