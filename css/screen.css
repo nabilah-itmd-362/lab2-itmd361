@@ -14,7 +14,7 @@ body {
 h1{
 	text-align: center;
 	font-size: 40px;
-	font-family: 'YoungSerif', sans-serif;
+	font-family: 'Young Serif', sans-serif;
 }
 
 /*updating formatting for label*/
@@ -25,12 +25,14 @@ label {
 input{
 	height: 35px;
 	width: 50%;
+	font-family: 'Young Serif', sans-serif;
+	border-radius: 0.625em;
+	box-sizing: border-box;
+	border-style: solid;
+	width: 50%;
 }
-
-/*Use the Young Serif font 
 
 /*adding adjustments for submit button*/
 #submit-button {
 	margin-top: 3%;
-
 }
