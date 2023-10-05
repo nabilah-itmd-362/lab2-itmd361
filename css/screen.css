@@ -7,8 +7,19 @@
 /*date of birth -> id = dob*/
 /*adding linear gradient for background*/
 
+/*creating stylistic elements for the box*/
+.box {
+    width: 600px; 
+    height: 300px;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+
 body {
 	background-color: #CBC3E3;
+	padding: 20px;
 }
 
 h1{
@@ -21,6 +32,7 @@ h1{
 label {
 	font-size: 25px;
 	font-family: 'Young Serif', sans-serif;
+	margin-top: 20px;
 }
 
 input{
@@ -30,9 +42,12 @@ input{
 	box-sizing: border-box;
 	border-style: solid;
 	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 
 /*adding adjustments for submit button*/
 #submit-button {
-	margin-top: 3%;
+	margin-top: 2%;
 }
