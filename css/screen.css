@@ -14,10 +14,7 @@ body {
 h1{
 	text-align: center;
 	font-size: 40px;
-}
-
-ol {
-
+	font-family: 'YoungSerif', sans-serif;
 }
 
 /*updating formatting for label*/
@@ -29,6 +26,8 @@ input{
 	height: 35px;
 	width: 50%;
 }
+
+/*Use the Young Serif font 
 
 /*adding adjustments for submit button*/
 #submit-button {
