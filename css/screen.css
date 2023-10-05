@@ -8,10 +8,13 @@
 /*adding linear gradient for background*/
 
 body {
-	/*include background color*/
-	background-color:;
+	background-color: #CBC3E3;
 }
 
 h1{
 	text-align: center;
+}
+
+ol {
+
 }
